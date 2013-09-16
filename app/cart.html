@@ -1,0 +1,228 @@
+<div class="container">
+	<div class="row fuelux">
+		<div id="cart-wizard" class="wizard">
+			<ul class="steps">
+				<li data-target="#step1" class="active"><span class="badge badge-info">1</span> Корзина<span class="chevron"></span></li>
+				<li data-target="#step2"><span class="badge">2</span> Адрес доставки<span class="chevron"></span></li>
+				<li data-target="#step3"><span class="badge">3</span> Оплата<span class="chevron"></span></li>
+				<li data-target="#step4"><span class="badge">4</span> Готово!<span class="chevron"></span></li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="step-content">
+		<div class="step-pane active" id="step1">
+			<h3>Ваша корзина</h3>
+			<table class="table">
+				<thead class="table-bordered">
+					<tr>
+						<th>Товар</th>
+						<th>Цена за 1 шт.</th>
+						<th>Количество</th>
+						<th>Сумма</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody class="table-bordered">
+					<tr>
+						<td>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="thumbnail" src="http://placehold.it/140x120">
+								</a>
+								<div class="media-body">
+									<a href="#"><h4>Картридж Profit Print MLT-D103S</h4></a>
+									<ul class="list-unstyled size-font list-icon">
+										<li>
+											<i class="icon-barcode"></i> <span class="product-name">PPMLT-D103L</span>
+										</li>
+										<li>
+											<i class="icon-print"></i> Samsung
+										</li>
+										<li>
+											<i class="icon-contrast"></i> Black
+										</li>
+									</ul>
+								</div>
+							</div>
+						</td>
+						<td>
+							1500 грн.
+						</td>
+						<td class="td-spinner">
+							<input type="text" class="spinner number form-control" maxlength="3" data-spinner="999" value="1">
+						</td>
+						<td>3000 грн.</td>
+						<td>
+							<button type="button" class="icon-remove btn btn-danger btn-sm" aria-hidden="true" data-toggle="tooltip" rel="tooltip" data-target="top" title="Удалить товар"></button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="thumbnail" src="http://placehold.it/140x120">
+								</a>
+								<div class="media-body">
+									<a href="#"><h4>Картридж Profit Print MLT-D103S</h4></a>
+									<ul class="list-unstyled size-font list-icon">
+										<li>
+											<i class="icon-barcode"></i> <span class="product-name">PPMLT-D103L</span>
+										</li>
+										<li>
+											<i class="icon-print"></i> Samsung
+										</li>
+										<li>
+											<i class="icon-contrast"></i> Black
+										</li>
+									</ul>
+								</div>
+							</div>
+						</td>
+						<td>
+							1500 грн.
+						</td>
+						<td class="td-spinner">
+							<input type="text" class="spinner number form-control" maxlength="3" data-spinner="999" value="1">
+						</td>
+						<td>3000 грн.</td>
+						<td>
+							<button type="button" class="icon-remove btn btn-danger btn-sm" aria-hidden="true" data-toggle="tooltip" rel="tooltip" data-target="top" title="Удалить товар"></button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="cap-box cap-box-huge">
+				<div class="cap-box-center">
+					<h3>Вы не добавили ни одного товара в свою корзину</h3>
+					<a href="#"><strong>Вернуться назад</strong></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="step-pane" id="step2">
+			<form class="form-horizontal row" role="form">
+				<div class="col-md-6">
+					<h3>Получатель</h3>
+					<hr>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Фамилия</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Имя</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Отчество</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Email</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Телефон</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<br>
+				</div>
+				<div class="col-md-6">
+					<h3>Адрес</h3>
+					<hr>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Город</label>
+						<div class="col-md-6">
+							<select class="form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Улица</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"><span class="star">* </span>Дом</label>
+						<div class="col-md-6">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Корп./стр.</label>
+						<div class="col-md-4">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Кв./офис</label>
+						<div class="col-md-4">
+							<input for="#" type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="step-pane" id="step3">
+			<h3>Проверьте данные перед оплатой</h3>
+			<br>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<td>Номер заказа</td>
+						<td>Дата создания</td>
+						<td>Сумма</td>
+						<td>Доставка</td>
+						<td>Стоимость заказа</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>#8427</td>
+						<td>30.06.2012 в 01:06</td>
+						<td>1 350 грн.</td>
+						<td>Бесплатно! (Лично в руки)</td>
+						<td>1 350 грн.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="step-pane" id="step4">
+			<div class="cap-box cap-box-huge">
+				<div class="cap-box-center">
+					<h3>Оплата прошла успешно!</h3>
+					<p>За состоянием доставки своих заказов вы можете следить в разделе «Ожидают отправки» своего личного кабинета.</p>
+					<p><a href="#"><strong>Перейти в личный кабинет</strong></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<br>
+				<div class="wizard-actions pull-right">
+					<button type="button" class="btn btn-mini btn-prev"> <i class="icon-arrow-left"> </i>Назад</button>
+					<button type="button" class="btn btn-mini btn-next btn-primary" data-last="Супер!&nbsp;">Дальше&nbsp;<i class="icon-arrow-right"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

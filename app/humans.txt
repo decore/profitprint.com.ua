@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    suenot -- Site Maker --  http://twitter.com/suenot
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    Jekyll static site generator
+    Sass and Compass 
+    Coffeescript 
+    HTML5 ★ Boilerplate 
+
